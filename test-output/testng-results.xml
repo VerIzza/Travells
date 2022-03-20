@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T00:40:06 CST" name="Default suite" finished-at="2022-03-20T00:40:18 CST" duration-ms="12766">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T00:40:06 CST" name="Default test" finished-at="2022-03-20T00:40:18 CST" duration-ms="12766">
+      <class name="stepDefinitions.Steps">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:stepDefinitions.Steps@fba92d3]" started-at="2022-03-20T00:40:06 CST" name="startDriver" finished-at="2022-03-20T00:40:10 CST" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="testTravells()[pri:0, instance:stepDefinitions.Steps@fba92d3]" started-at="2022-03-20T00:40:10 CST" name="testTravells" finished-at="2022-03-20T00:40:18 CST" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTravells -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:stepDefinitions.Steps@fba92d3]" started-at="2022-03-20T00:40:18 CST" name="terminateBrowser" finished-at="2022-03-20T00:40:18 CST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- stepDefinitions.Steps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
