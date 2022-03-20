@@ -28,7 +28,6 @@ public class Steps {
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(this.driver, 10);
 		util = new Util();
-		System.out.println("TESTING THIS LINE and add something mooooorreeeeeeee");
 	}
 		
 	@Test
