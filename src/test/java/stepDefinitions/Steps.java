@@ -49,6 +49,7 @@ public class Steps {
 		//Set Flying from and Destination
 		this.map.flyingFromIn.sendKeys("MTY");
 		this.map.destinationIn.sendKeys("CUN");
+		System.out.println("and i add this other line");
 		
 		//Set Departure date as tomorrow and return date as tomorrow plus 10 days
 		assert(map.dateReturnForm.isDisplayed());
